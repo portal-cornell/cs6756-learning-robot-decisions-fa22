@@ -10,7 +10,7 @@ def make_env():
     return gym.make("LunarLander-v2")
 
 def get_expert():
-    return PPO.load("../experts/LunarLander-v2/lunarlander_expert")
+    return PPO.load("./experts/LunarLander-v2/lunarlander_expert")
 
 def get_expert_performance(env, expert):
     Js = []
