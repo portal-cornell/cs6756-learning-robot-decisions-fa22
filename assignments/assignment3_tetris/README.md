@@ -8,7 +8,7 @@ We copied over the base tetris package from [Gym-SimplifiedTetris](https://githu
 
 Create a conda environment and install the dependencies by
 ```bash
-pip -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Developing code
